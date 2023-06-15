@@ -1,0 +1,7 @@
+.competed-todos
+.todo-card
+.todo-data
+.todo-text{
+  text-decoration: line-through;
+  color: red;
+}

@@ -1,0 +1,43 @@
+.add-new{
+  width: 100%;
+  height: 100%;
+}
+.add-new form{
+  padding: var(--s-s);
+  display: grid;
+  gap: var(--s-l);
+}
+.form-field{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.form-field label{
+  color: var(--c-b);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.form-field input{
+  height: 30px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--c-p);
+
+}
+.form-field textarea{
+  border: none;
+  outline: 1px solid var(--c-p);
+}
+.form-field button{
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--c-p);
+  color: var(--c-w);
+  font-size: 16px;
+  letter-spacing: 5px;
+  transition: all .3s;
+}
+.form-field button:active{
+  scale: .95;
+}

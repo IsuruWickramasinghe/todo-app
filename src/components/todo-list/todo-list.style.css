@@ -1,0 +1,54 @@
+.todo-list{
+  display: grid;
+  gap: var(--s-s);
+}
+.todo-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  padding: var(--s-s);
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: all .5s;
+  height: 60px;
+  overflow: hidden;
+}
+.show-desc{
+  height: 100%;
+}
+.todo-card:hover{
+  background-color: var(--c-w);
+}
+.todo-data{
+  display: grid;
+}
+.todo-text{
+  font-size: var(--f-s-m);
+  font-weight: var(--f-w-b);
+  color: var(--c-b);
+}
+.todo-desc{
+  font-size: var(--f-s-s);
+  color: var(--c-b);
+}
+.todo-btns{
+  display: flex;
+  gap: 15px;
+}
+.check-todo{
+  color: var(--c-s);
+  font-weight: var(--f-w-b);
+}
+.delete-todo{
+  color: var(--c-error);
+}
+.check-todo,
+.delete-todo{
+  height: 20px;
+  cursor: pointer;
+  transition: all .3s;
+}
+.check-todo:active,
+.delete-todo:active{
+  scale: 1.3;
+}
