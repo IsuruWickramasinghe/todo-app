@@ -1,1 +1,12 @@
-<a href="https://isuruwickramasinghe.github.io/todo-app/">https://isuruwickramasinghe.github.io/todo-app/</a>
+
+# Todo App
+
+Simple todo app with react+vite and firebase auth+firestore
+
+---
+
+
+
+## 🔗 Link
+https://isuruwickramasinghe.github.io/todo-app/
+
